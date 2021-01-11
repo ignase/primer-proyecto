@@ -3,6 +3,7 @@
 	padding: 0;
 	box-sizing: border-box;
 
+
   
 }
 
@@ -16,6 +17,7 @@ body {
 	width: 1000px;
 	margin: 30px auto;
 	background: #fff;
+	border-radius: 12px;
 
 }
 
@@ -31,6 +33,8 @@ body {
 	position: relative;
 	display: inline-block;
 
+
+
 }
 
 .menu > li > a {
@@ -40,7 +44,12 @@ body {
 	font-family: "Open sans";
 	text-decoration: none;
 
+
+
+
+
 }
+
 
 .menu li a:hover {
 	color: #CE7D35;
@@ -76,6 +85,34 @@ body {
 	display: visible;
 	opacity: 1;
 }
+
+.comunicado {
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+}
+
+.comunicado p {
+	font-size: 22px;
+	color: rgb(200,200,210);
+	text-align: center;
+
+
+}
+
+
+
+.comunicado h1 {
+	font-size: 35px;
+	text-align: center; 
+	text-decoration: underline;
+	margin-bottom: 20px;
+	color: rgb(250,0,50);
+
+}
+
+
 
 
 
